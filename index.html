@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample_Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <img src="/image/img.png" alt="logo">
+        <form id="signon">
+            <div class="sign_up">
+                <div class="form_heading">
+                    <h2>Create a new account</h2>
+                    <p>It's quick and easy.</p>
+               </div>
+               <div class="input_form">
+                <div class="half_width">
+                    <input type="text" placeholder="First name" name="fname"/>
+                </div>
+                <div class="half_width">
+                    <input type="text" placeholder="Surname" name="sname"/>
+                </div>
+                <div class="full_width">
+                    <input type="number" placeholder="Mobile Number" name="mobile"/>
+                </div>
+                <div class="full_width">
+                    <input type="password" placeholder="New Password" name="password"/>
+                </div>
+                <label>Date of Birth</label>
+                <div class="dob">
+                    <div class="quad_width">
+                        <select name="day">
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <div class="quad_width">
+                        <select name="month">
+                            <option value="">Choose</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                        </select>
+                    </div>
+                    <div class="quad_width">
+                        <select name="year">
+                            <option value="">Choose</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                        </select>
+                    </div>
+               </div>
+               <label>Gender</label>
+               <div class="dob">
+                <div class="quad_width">
+                    <div class="radio_btn">
+                        <label class="radio_p">Female</label>
+                        <input type="radio" class="radio_j" name="gender"/>
+                    </div>
+                </div>
+                <div class="quad_width">
+                    <div class="radio_btn">
+                        <label class="radio_p">Male</label>
+                        <input type="radio" class="radio_j" name="gender"/>
+                    </div>
+                </div>
+                <div class="quad_width">
+                    <div class="radio_btn">
+                        <label class="radio_p">Custom</label>
+                        <input type="radio" class="radio_j" name="gender"/>
+                    </div>
+                </div>
+               </div>
+                <small>People who use our service may have uploaded your contact information to Facebook. <a href="https://www.facebook.com/help/">Learn more.</a></small>
+                <small class="small_t">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+                </small>
+                <div class="button">
+                    <button class="button_btn">Sign Up</button>
+                </div>
+                <div class="account_div">
+                    <a href="/sample_pro/login.html">Already have an account?</a>
+                </div>
+              </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+<script src="/validation.js"></script>
+</html>

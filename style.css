@@ -1,0 +1,125 @@
+body, h1, h2, p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-div{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+img {
+    padding: 15px 0px 25px;
+    width: 280px;
+    
+    
+}
+.sign_up {
+    background-color: #fff;
+    width: 430px;
+    border-radius: 8px;
+}
+.form_heading{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+h2{
+    padding-bottom: 5px;
+}
+
+.input_form{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input, select, .radio_btn{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+.half_width{
+    display: flex;
+    width: 48%;
+}
+
+.full_width{
+    display: flex;
+    width: 100%;
+}
+
+label {
+    color: #606770;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+.dob {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.quad_width {
+    width: 31%;
+    display: flex;
+}
+.radio_btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio_p{
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+.radio_j{
+    margin: 0;
+    width: auto;
+}
+small{
+    font-size: 11.4px;
+    color: #777;
+    
+}
+.small_t {
+    font-size: 11px;
+    padding-top: 10px;
+    color: #777;
+}
+a{
+    text-decoration: none;
+}
+.button_btn{
+    border: 0;
+    background-color: #00a400;
+    color: white;
+    padding: 8px 70px 10px 70px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 595;
+}
+.button{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.account_div{
+    color: #1877f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+}
